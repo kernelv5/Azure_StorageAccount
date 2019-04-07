@@ -16,16 +16,16 @@ $Source1K="*******************************"
 $Destination1="https://XXXXXX.file.core.windows.net/{DestinationFolder}"
 $DestinationK1="*******************************"
 ```
-###### One storage account to another storage account
+#### One storage account to another storage account
 ```
 azcopy --source $Source1 --destination $Destination1 --sync-copy --recursive --source-key $Source1K --dest-key $DestinationK1
 ```
 
-###### Same storage account, one share to another share
+#### Same storage account, one share to another share
 ```
 azcopy --source $Source1 --destination $Destination1 --sync-copy --sync-copy --block-size-in-mb 24 --recursive --source-key $Source1K --dest-key $DestinationK1
 ```
 
-##### MyExperience
+### MyExperience
 1. One Storage to another storage sync speed 35 Mb to 50 Mb
 2. Same storage account one share to another share sync speed up to 100 Mb
