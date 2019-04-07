@@ -1,3 +1,7 @@
+# AzCopy
+Installation and Information : https://github.com/Azure/azure-storage-azcopy
+
+
 #### Azure Storage Account migration ( Synchronization )
 
 AzCopy available on AzureCloudShell ( https://shell.azure.com/ )AzCopy available on AzureCloudShell ( https://shell.azure.com/ ) or Installation Guidelines available for Linux and Mac. This script tested on AzureCloudShell. 
