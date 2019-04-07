@@ -1,5 +1,5 @@
 # AzCopy
-Installation and Information : https://github.com/Azure/azure-storage-azcopy
+Microsoft Documentation : https://github.com/Azure/azure-storage-azcopy
 
 
 #### Azure Storage Account migration ( Synchronization )
@@ -11,9 +11,9 @@ This script applicable for Storage account Share Files purpose only. Never teste
 
 ``` Azure
 # Declare Variables
-$Source1="https://XXXXX.file.core.windows.net/alf-data/solr4Backup"
+$Source1="https://XXXXX.file.core.windows.net/{SourceFolder}"
 $Source1K="*******************************"
-$Destination1="https://XXXXXX.file.core.windows.net/alf-data/solr4Backup"
+$Destination1="https://XXXXXX.file.core.windows.net/{DestinationFolder}"
 $DestinationK1="*******************************"
 ```
 ###### One storage account to another storage account
