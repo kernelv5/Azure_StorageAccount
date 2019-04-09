@@ -29,3 +29,9 @@ azcopy --source $Source1 --destination $Destination1 --sync-copy --sync-copy --b
 ### MyExperience
 1. One Storage to another storage sync speed 35 Mb to 50 Mb
 2. Same storage account one share to another share sync speed up to 100 Mb
+
+
+### April 9 
+I discover that azcopy performance depends on host node. Today i ran one syn from azure cloud shell and the max speed was 9-12 MB/s. I have one vertual machine whiere CPU 12 and RAM 40 GB. I execute that same syn but speed was 85-09 MB/s. 
+
+From same host azcopy dont allow multiple sync same time. 
