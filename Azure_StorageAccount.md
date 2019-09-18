@@ -18,8 +18,10 @@ $DestinationK1="*******************************"
 ```
 #### One storage account to another storage account
 ```
-azcopy --source $Source1 --destination $Destination1 --sync-copy --recursive --source-key $Source1K --dest-key $DestinationK1
+azcopy --source $Source1 --destination $Destination1 --sync-copy --block-size-in-mb 24 --recursive --source-key $Source1K --dest-key $DestinationK1
 ```
+
+*** --block-size-in-mb 24 increase the performance 10 times. Without Block size speed was 27 Mbps after that 16 MB/s
 
 #### Same storage account, one share to another share
 ```
